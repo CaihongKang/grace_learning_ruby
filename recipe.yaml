@@ -1,0 +1,14 @@
+---
+:title: make coffee
+:ingredients:
+- :ingredient_name: Water
+  :quantity_g: 8
+- :ingredient_name: coffee beans
+  :quantity_g: 10
+:steps:
+  :step1: mix together and boil
+:every_step_time_use:
+  :step1:
+  - 10
+  - 1
+  - 6
