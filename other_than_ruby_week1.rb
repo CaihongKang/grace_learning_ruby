@@ -5,6 +5,7 @@
 # git clone
 # git add
 # git commit
+# git log
 # git push
 # git branch
 # git status
