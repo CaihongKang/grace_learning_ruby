@@ -1,4 +1,4 @@
-#require './Circle' # load file Circle.rb by （绝对路径）
+#require './test_dir/Test_Circle' # load file Circle.rb by （绝对路径）
 require_relative "Circle" #load searching 当前目录 相对路径
 require "pp"
 class Shape

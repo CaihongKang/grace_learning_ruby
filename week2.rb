@@ -88,7 +88,20 @@ raise PermissionDeniedError.new("Permission Denied", :delete)
 #use ensure.
 
 # how to write a dynamic method? could you implement a "method_missing" method?
+# Responding to Calls to Undefined Methods
 # What kind of situation can you use "method_missing"?
+class MyClass
+  def defined_method
+    'This method is defined.'
+  end
+  def method_missing(m, *args)
+    "Sorry, I don't know about any #{m} method."
+  end
+end
+
+my = MyClass.new
+my.undefined_method
+
 #当一个类被调用方法未找到时,该类的method_missing(name,*args,&block)方法会被自动调
 #
 # how to create and write a file through ruby logic? how to read a file?

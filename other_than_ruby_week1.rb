@@ -2,11 +2,15 @@
 
 # learn below commands
 # git init .
-# git clone
-# git add
+# $ git init
+# Initialized empty Git repository in /home/ubuntu/workspace/hello_app/.git/
+
+
+# git add -A 把项目中的所有文件都放到仓库中暂存区
 # git commit
 # git log
 # git push
+# # git clone
 # git branch
 # git status
 # git diff
